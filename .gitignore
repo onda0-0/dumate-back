@@ -1,0 +1,56 @@
+HELP.md
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Java & 컴파일 관련 & 로그 파일
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.idea/
+*.swp
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# OS별 불필요한 파일
+.DS_Store     # macOS
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle 관련
+gradle-app.setting
+
+### VS Code ###
+.vscode/
+
+# 환경변수 파일
+.env
+.env.*
